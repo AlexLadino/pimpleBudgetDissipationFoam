@@ -49,6 +49,6 @@ if (runTime.timeIndex() >= 3)
       dissipation = -dedt - deuidxi - dpuidxi + d2nue - eps_nu;   
 	       
       // integral for numerical dissipation in the whole domain
-      Info<< "domainIntegrate=" << fvc::domainIntegrate(dissipation) << endl;
+      // Info<< "domainIntegrate=" << fvc::domainIntegrate(dissipation) << endl;
 }
 
